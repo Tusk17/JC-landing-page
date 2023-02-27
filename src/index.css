@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital@1&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,25 +8,24 @@
 }
 
 .navbar {
-  background-color: #fff !important;
-  z-index: 2;
+  background-color: #fff;
 }
+
 .navbar-image {
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    z-index: 1;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
 }
-/* CSS banner final*/
+
 .footer-banner {
   background-color: #f8f8f8;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 50px;
+  padding: 2.78vw;
 }
 
 .footer-banner-info {
@@ -33,89 +33,84 @@
 }
 
 .footer-banner-info h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 1.67rem;
+  margin-bottom: 0.56rem;
 }
 
 .footer-banner-info h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 1.17rem;
+  margin-bottom: 0.56rem;
 }
 
 .footer-banner-info p {
-  font-size: 14px;
-  margin: 0 0 10px 0;
+  font-size: 0.83rem;
+  margin: 0 0 0.56rem 0;
 }
-/*fin
-/*CSS para componente Employee*/
+
 .card {
   border: none;
   border-radius: 10px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
-  margin-top: 100px;
-  margin-bottom: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 3.33vw 1.11vw 1.67vw 1.11vw;
 }
 
 .card:hover {
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
-  transform: translateY(-5px);
+  box-shadow: 0 0.17vw 0.56vw rgba(0, 0, 0, 0.4);
+  transform: translateY(-0.28vw);
 }
 
 .card-body {
-  padding: 20px;
+  padding: 1.39vw;
 }
 
 .card-title {
-  margin-bottom: 10px;
-  font-size: 24px;
+  margin-bottom: 0.56rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .card-text {
-  margin-bottom: 5px;
-  font-size: 18px;
+  margin-bottom: 0.28rem;
+  font-size: 1.17rem;
 }
 
 @media (max-width: 767px) {
   .card {
-    margin-bottom: 15px;
+    margin-bottom: 0.83rem;
   }
-  
+
   .card-title {
-    font-size: 20px;
+    font-size: 1.11rem;
   }
-  
+
   .card-text {
-    font-size: 16px;
+    font-size: 0.89rem;
   }
 }
-/*CSS para el EmployeeForm*/
+
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 1.11vw;
 }
 
 label {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 10px;
+  margin-bottom: 0.56rem;
 }
 
 input {
   width: 100%;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  margin-top: 5px;
-  font-size: 16px;
+  padding: 0.28rem;
+  border: 0.06rem solid #ccc;
+  border-radius: 0.17rem;
+  margin-top: 0.28rem;
+  font-size: 1rem;
 }
-
 button[type="submit"] {
   width: 100%;
   padding: 10px;
@@ -250,14 +245,22 @@ button {
 /*fin*/
 /*ccs para el div del componente home*/
 .common-container {
-  margin-top: 150px; /* Ajusta este valor según el tamaño de tu Navbar */
-  margin-bottom: 200px;
+  display: flex; /* Ajusta este valor según el tamaño de tu Navbar */
+  margin-bottom: auto;
+}
+.common-container, .info-banner, .services, .employees, .footer-banner {
+  opacity: 0.9;
+}
+nav {
+  position: flex;
+  z-index: 2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .common-container {
-    margin-top: 50px;
-    margin-bottom: 100px;
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
   }
 }
 
@@ -365,22 +368,22 @@ textarea {
 
 @-webkit-keyframes up-down {
   0% {
-    transform: translateY(10px);
+    transform: translateY(5px);
   }
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
   }
 }
 
 @keyframes up-down {
   0% {
-    transform: translateX(10px);
+    transform: translateX(5px);
   } 
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
   }
 }
 
 #coverImg {
-  object-fit: cover;
+  object-fit:contain;
 }

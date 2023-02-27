@@ -7,9 +7,8 @@ const About = () => {
         <>
         <div className="common-container">
             <Common 
-                name='Bienvenido, conócenos' 
+                name='Bienvenido, conóceme' 
                 imgsrc={about} 
-                visit='/contact' 
                 btnname="Contactar ahora" 
             />
             </div>

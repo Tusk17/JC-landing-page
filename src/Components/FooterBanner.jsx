@@ -4,16 +4,16 @@ function FooterBanner() {
     return (
         <div className="footer-banner">
             <div className="footer-banner-info">
-                <h2>Turing Inteligencia Artificial</h2>
-                <p>Av. Insurgentes 601</p>
-                <p>Col. Nápoles, Benito Juárez</p>
-                <p>Ciudad de México, México</p>
+                <h2>Juan Carlos Castillo Vallejo</h2>
+                <p>Tamaulipas, México</p>
+                <p>Carrera: Ingeniería en Sistemas Computacionales</p>
+                <p>Practicante, Trainee, ¿SemiJunior?</p>
             </div>
             <div className="footer-banner-info">
                 <h3>Teléfono de contacto:</h3>
-                <p>+52 (722) 936-96-65</p>
+                <p>+52 (831) 238-01-54</p>
                 <h3>Correo electrónico:</h3>
-                <p>contacto@turing-ia.com</p>
+                <p>jhon981712@gmail.com</p>
             </div>
         </div>
     );

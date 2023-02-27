@@ -6,16 +6,17 @@ const InfoBanner = () => {
             <div className="container">
                 <div className="row justify-content-center align-items-center">
                     <div className="col-md-8 text-center">
-                        <h2 className="text-uppercase mb-3">¿Qué realizamos?</h2>
+                        <h2 className="text-uppercase mb-3">¿Quién soy?</h2>
                         <p className="lead mb-4">
-                            Contribuimos con su empresa para mejorar la toma de decisiones a
-                            través de sus datos.
+                            Un practicante de programación buscando oportunidades para convertirse en un programador Junior.
+                            Me tomo en serio mi trabajo y me gusta trabajar de manera organizacional. Deseo aportar
+                            más a la economía del hogar, es una de mis motivaciones para pulir mis habilidades.
                         </p>
                         <a
-                            href="https://www.turing-ia.com/services.php"
+                            href="https://mnf.red/jccv98"
                             className="btn btn-primary btn-lg"
                         >
-                            Más información
+                            Consulta mi CV web
                         </a>
                     </div>
                 </div>

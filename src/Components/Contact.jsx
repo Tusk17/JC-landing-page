@@ -23,7 +23,7 @@ const Contact = () => {
         e.preventDefault();
         // message can be saved to db or email can be sent from here!
         
-        swal("¡Enviado!", "¡Mensaje entregado exitosamente!", "success");
+        swal("¡Enviado! (En realidad no, pero la animación está bonita, en construcción)", "¡Mensaje entregado exitosamente!", "success");
     }
 
   return (
