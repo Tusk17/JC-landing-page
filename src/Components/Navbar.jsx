@@ -1,62 +1,24 @@
-import React from "react";
-import {NavLink } from "react-router-dom"
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import '../styles/Navigation.css';
 
-
-const Navbar = () => {
+const Navigation = () => {
   return (
-    <>
-      <div className="container-fluid nav_bg">
-        <div className="row">
-          <div className="col-10 mx-auto">
-            <nav className="navbar navbar-expand-lg navbar-light">
-              <div className="container-fluid">
-                <NavLink  exact className="navbar-brand" to="/">
-                  (Sitio en construcción/Under construction) Secciones:
-                </NavLink>
-                <button
-                  className="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span className="navbar-toggler-icon"></span>
-                </button>
-                <div
-                  className="collapse navbar-collapse"
-                  id="navbarSupportedContent"
-                >
-                  <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
-                    <li className="nav-item">
-                      <NavLink activeClassName="menu_active"  exact
-                        className="nav-link active"
-                        aria-current="page"
-                        to="/"
-                      >
-                        Inicio
-                      </NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink activeClassName="menu_active"  exact className="nav-link" to="/about">
-                        Conóceme
-                      </NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink activeClassName="menu_active"  exact className="nav-link" to="/contact">
-                        Contacto
-                      </NavLink>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </>
+    <Navbar bg="light" expand="lg" className="navigation">
+      <Navbar.Brand href="/" className="brand">Mi Portafolio Web (En construcción)</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle" />
+      <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+        <Nav className="links">
+          <Nav.Link as={Link} to="/" className="link">Inicio</Nav.Link>
+          <NavDropdown title="Secciones" id="basic-nav-dropdown" className="dropdown">
+            <NavDropdown.Item as={Link} to="/services" className="dropdown-item">Proyectos</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/contact" className="dropdown-item">Contacto</NavDropdown.Item>
+          </NavDropdown>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 
-export default Navbar;
+export default Navigation;

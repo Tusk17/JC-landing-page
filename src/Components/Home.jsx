@@ -3,7 +3,6 @@ import home from "../images/JCCV-Logo.png";
 import Common from './Common';
 import FooterBanner from './FooterBanner';
 import InfoBanner from './InfoBanner';
-import Services from './Services';
 
 const Home = () => {
     const [texts] = useState(['Trainee Programador Backend', '¿Trainee Programador FrontEnd?', '¿¿¿Trainee Programador FullStack???', 'BackEnd, de preferencia :)']);
@@ -65,7 +64,6 @@ const Home = () => {
                 />
             </div>
             <InfoBanner />
-            <Services />
             <FooterBanner></FooterBanner>
         </>
     )

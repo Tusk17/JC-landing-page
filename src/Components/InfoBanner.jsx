@@ -8,9 +8,10 @@ const InfoBanner = () => {
                     <div className="col-md-8 text-center">
                         <h2 className="text-uppercase mb-3">¿Quién soy?</h2>
                         <p className="lead mb-4">
-                            Un practicante de programación buscando oportunidades para convertirse en un programador Junior.
-                            Me tomo en serio mi trabajo y me gusta trabajar de manera organizacional. Deseo aportar
-                            más a la economía del hogar, es una de mis motivaciones para pulir mis habilidades.
+                        Una persona que está aprendiendo programación y está en busca de oportunidades para convertirse en un programador Junior.
+                        Tengo un fuerte compromiso con mi trabajo y valoro trabajar de manera estructurada. 
+                        Uno de mis objetivos es mejorar mis habilidades y contribuir más al ingreso del hogar,
+                        lo cual me motiva a seguir perfeccionándome en este campo.
                         </p>
                         <a
                             href="https://mnf.red/jccv98"

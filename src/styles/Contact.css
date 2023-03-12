@@ -1,0 +1,70 @@
+* {
+    margin-bottom: 0;
+}
+.contact-container {
+    margin-top: 30px;
+    margin-bottom: 200px;
+  }
+  
+/* Estilos para pantallas grandes */
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    margin-top: 1em;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    form {
+        max-width: 300px;
+    }
+
+    label {
+        font-size: 0.8em;
+    }
+
+    input,
+    textarea {
+        font-size: 0.8em;
+    }
+
+    button[type="submit"] {
+        font-size: 0.8em;
+    }
+}
+
+div {
+    margin-bottom: 0px;
+}
+
