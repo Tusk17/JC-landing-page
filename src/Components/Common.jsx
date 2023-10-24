@@ -29,7 +29,7 @@ const Common = ({
                                 <div className="mt-3">
                                     {//<NavLink to="" className="btn-get-started ">    </NavLink>
                                     }
-                                    <a href="https://drive.google.com/file/d/1FxaU0MBbNjwc4AAdaSk23CAvcbhC-efd/view?usp=share_link" className="btn-get-started" download>Descargar CV</a>
+                                    <a href="https://drive.google.com/file/d/1BgFk2a8T5v4_nlh7jsNNT8uaKipbabQV/view?usp=sharing" className="btn-get-started" download>Descargar CV</a>
                                 </div>
                             </div>
 
