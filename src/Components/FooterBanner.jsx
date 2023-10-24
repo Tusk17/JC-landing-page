@@ -7,7 +7,7 @@ function FooterBanner() {
                 <h2>Juan Carlos Castillo Vallejo</h2>
                 <p>Tamaulipas, México</p>
                 <p>Carrera: Ingeniería en Sistemas Computacionales</p>
-                <p>Practicante, Trainee, ¿SemiJunior?</p>
+                <p>Desarrollador de software</p>
             </div>
             <div className="footer-banner-info">
                 <h3>Teléfono de contacto:</h3>

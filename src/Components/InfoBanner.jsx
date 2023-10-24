@@ -8,10 +8,10 @@ const InfoBanner = () => {
                     <div className="col-md-8 text-center">
                         <h2 className="text-uppercase mb-3">¿Quién soy?</h2>
                         <p className="lead mb-4">
-                        Una persona que está aprendiendo programación y está en busca de oportunidades para convertirse en un programador Junior.
-                        Tengo un fuerte compromiso con mi trabajo y valoro trabajar de manera estructurada. 
-                        Uno de mis objetivos es mejorar mis habilidades y contribuir más al ingreso del hogar,
-                        lo cual me motiva a seguir perfeccionándome en este campo.
+                        Una persona que ha desempeñado roles como practicante y desarrollador Jr. Me enfoco y prefiero trabajar con Back end, sin embargo
+                        soy consciente de la importancia de un buen diseño front end y la experiencia del usuario por lo que también me desempeño un poco en esa area.
+                        Soy principiante en los procesos ETL, pero son un area de interes para mi dada la automatización que se les puede integrar, un ejemplo de esto
+                        es la extracción de datos mediante web scrapping, la limpieza y ordenamiento usando algoritmos, para terminar con la subida por lotes a una BD.
                         </p>
                         <a
                             href="https://mnf.red/jccv98"

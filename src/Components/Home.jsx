@@ -5,7 +5,7 @@ import FooterBanner from './FooterBanner';
 import InfoBanner from './InfoBanner';
 
 const Home = () => {
-    const [texts] = useState(['Trainee Programador Backend', '¿Trainee Programador FrontEnd?', '¿¿¿Trainee Programador FullStack???', 'BackEnd, de preferencia :)']);
+    const [texts] = useState(['Ing. Sistemas Computacionales', 'Enfoque Back end', 'Un poco de Front end', 'Análisis y procesamiento de datos también me gusta']);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [typingComplete, setTypingComplete] = useState(false);
 
